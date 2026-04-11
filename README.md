@@ -1,8 +1,16 @@
 # PyGets
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/ZentarDev/Pygets/main/docs/assets/images/pygets_icon.png" alt="PyGets" width="180">
+</p>
+
 PyGets is a lightweight widget toolkit for building small interfaces with `pygame`.
 
 It provides reusable UI components for rapid prototypes, tools, menus, and simple applications without introducing a larger GUI framework.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/ZentarDev/Pygets/main/docs/assets/gifs/examples_mini.gif" alt="PyGets demo" width="400">
+</p>
 
 ## Features
 
