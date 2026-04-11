@@ -77,7 +77,7 @@ while running:
     textbox1.update()
     textbox2.update()
 
-    screen.fill(colors["BLUISH_GRAY"]) # theme.background
+    screen.fill(colors["BLUISH_GRAY"])
 
     label1 = font.render("Name:", True, theme.text)
     label2 = font.render("Email:", True, theme.text)

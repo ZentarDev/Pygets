@@ -60,7 +60,7 @@ while running:
             mousedown = True
             pos = event.pos
 
-    screen.fill(colors["BLUISH_GRAY"]) # SAND
+    screen.fill(colors["BLUISH_GRAY"])
 
     # Update and draw the toggles
     for i, tg in enumerate(toggles):

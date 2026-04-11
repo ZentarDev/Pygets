@@ -53,7 +53,7 @@ while running:
             running = False
         combo.handle_event(event)
 
-    screen.fill(colors["BLUISH_GRAY"]) # TOASTED_BEIGE
+    screen.fill(colors["BLUISH_GRAY"])
     
     combo.draw()
 

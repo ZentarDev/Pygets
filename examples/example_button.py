@@ -77,7 +77,7 @@ while running:
             if button3.rect.collidepoint(event.pos):
                 print("Button 3 pressed!")
     
-    screen.fill(colors["BLUISH_GRAY"]) # TOASTED_BEIGE
+    screen.fill(colors["BLUISH_GRAY"])
 
     button1.draw()
     button2.draw()

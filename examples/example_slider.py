@@ -62,7 +62,7 @@ while running:
         slider2.handle_event(event)
 
     # Background according to theme
-    screen.fill(colors["BLUISH_GRAY"]) # MINT_GREEN
+    screen.fill(colors["BLUISH_GRAY"])
 
     slider1.draw()
     slider2.draw()
