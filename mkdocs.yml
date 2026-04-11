@@ -1,0 +1,7 @@
+site_name: PyGets Docs
+theme: material
+nav:
+  - Home: index.md
+  - Guide: getting-started.md
+  - Styles: customization.md
+  - Community: CONTRIBUTING.md
