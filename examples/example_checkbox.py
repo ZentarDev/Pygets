@@ -28,10 +28,25 @@ except FileNotFoundError:
 
 
 # Create checkboxes
-checkbox1 = Checkbox(x=100, y=100, screen=screen, theme=themes["forest"], border_radius=100)
-checkbox2 = Checkbox(x=100, y=200, screen=screen, theme=themes["ocean"], checked=True, border_radius=5)
-checkbox3 = Checkbox(x=100, y=300, screen=screen, theme=themes["sunset"])
-checkbox4 = Checkbox(x=100, y=400, screen=screen, checked=False, theme=themes["purple_night"])
+checkbox1 = Checkbox(
+    x=100, y=100,
+    screen=screen, theme=themes["forest"],
+    checked=True, border_radius=100
+)
+checkbox2 = Checkbox(
+    x=100, y=200,
+    screen=screen, theme=themes["ocean"],
+    checked=True, border_radius=5
+)
+checkbox3 = Checkbox(
+    x=100, y=300,
+    screen=screen, theme=themes["sunset"]
+)
+checkbox4 = Checkbox(
+    x=100, y=400,
+    screen=screen, theme=themes["purple_night"],
+    checked=False
+)
 
 # Texto asociado
 texts = [
@@ -58,7 +73,6 @@ while running:
             running = False
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             mousedown = True
-            pos = event.pos
 
     screen.fill(colors["BLUISH_GRAY"])
 

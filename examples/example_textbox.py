@@ -38,25 +38,17 @@ def when_enter_presses():
 
 # Crear inputs
 textbox1 = Textbox(
-    x=100,
-    y=100,
-    screen=screen,
-    font=font,
-    function=when_enter_presses,
+    x=100, y=100, width=400,
+    screen=screen, theme=theme,
+    font=font, function=when_enter_presses,
     placeholder="Write your name...",
-    width=400,
-    theme=theme
 )
 
 textbox2 = Textbox(
-    x=100,
-    y=250,
-    screen=screen,
-    font=font,
+    x=100, y=250, width=400,
+    screen=screen, theme=theme,
+    font=font, max_characters=100,
     placeholder="Write your name...",
-    width=400,
-    max_characters=100,
-    theme=theme
 )
 
 

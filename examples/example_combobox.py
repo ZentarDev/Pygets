@@ -29,15 +29,10 @@ except FileNotFoundError:
 
 # Create a comobobx with the theme "light"
 combo = Combobox(
-    x=100,
-    y=100,
-    width=250,
-    height=35,
-    screen=screen,
+    x=100, y=100, width=250, height=35,
+    screen=screen, theme=themes["light"],
     options=["Python", "Java", "C++", "JavaScript", "Rust", "Go"],
-    font=font,
-    border_radius=10,
-    theme=themes["light"]
+    font=font, border_radius=10,
 )
 
 

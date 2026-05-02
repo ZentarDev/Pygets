@@ -35,16 +35,14 @@ actual_theme = themes["purple_night"]
 # Create sliders
 slider1 = Slider(
     x=100, y=200, width=300, height=8,
-    screen=screen,
+    screen=screen, theme=actual_theme,
     min_val=0, max_val=100, initial_value=50,
-    theme=actual_theme
 )
 
 slider2 = Slider(
     x=100, y=300, width=300, height=8,
-    screen=screen,
-    min_val=0, max_val=1, initial_value=0.25, # type: ignore
-    theme=actual_theme
+    screen=screen, theme=actual_theme,
+    min_val=0, max_val=1, initial_value=0.25
 )
 
 

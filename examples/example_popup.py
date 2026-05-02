@@ -26,16 +26,13 @@ except FileNotFoundError:
     title_font = pygame.font.Font(None, 28)
 
 popup = Popup(
-    title="Lorem ipsum",
-    message="Lorem ipsum dolor sit amet consectetur adipiscing elit odio, nostra mus aliquam viverra et fermentum mattis, curabitur aptent pharetra imperdiet dignissim mi sed.",
-    font=font,
-    title_font=title_font,
+    width=500, height=250,
+    screen=screen, theme=themes["light"],
+    font=font, title_font=title_font,
     screen_width=SCREEN_WIDTH,
     screen_height=SCREEN_HEIGHT,
-    width=500,
-    height=250,
-    screen=screen,
-    theme=themes["light"],
+    title="Lorem ipsum",
+    message="Lorem ipsum dolor sit amet consectetur adipiscing elit odio, nostra mus aliquam viverra et fermentum mattis, curabitur aptent pharetra imperdiet dignissim mi sed.",
 )
 
 clock = pygame.time.Clock()

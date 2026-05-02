@@ -30,27 +30,32 @@ import pygame
 from pygets.core.theme import themes
 from pygets.widgets import Button, Slider
 
+
 pygame.init()
 
-screen = pygame.display.set_mode((900, 600))
+# Configuration of the screen
+screen = pygame.display.set_mode((600, 400)) # (900, 600)
 pygame.display.set_caption("PyGets Demo")
 
 font = pygame.font.Font(None, 28)
 theme = themes["dark"]
 
+
+# The widgets
 button = Button(
-    x=60,
-    y=60,
+    x=215,
+    y=150,
     font=font,
     screen=screen,
     theme=theme,
     text="Apply",
-    width=180,
+    width=100,
+    height=50
 )
 
 slider = Slider(
-    x=60,
-    y=150,
+    x=150,
+    y=100,
     width=280,
     height=8,
     screen=screen,
@@ -60,6 +65,8 @@ slider = Slider(
     initial_value=35,
 )
 
+
+# Main loop
 clock = pygame.time.Clock()
 running = True
 

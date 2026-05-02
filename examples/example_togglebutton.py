@@ -58,7 +58,6 @@ while running:
             running = False
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             mousedown = True
-            pos = event.pos
 
     screen.fill(colors["BLUISH_GRAY"])
 
